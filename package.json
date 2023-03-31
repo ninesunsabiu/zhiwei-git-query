@@ -1,0 +1,23 @@
+{
+    "name": "zhiwei-git-query",
+    "version": "0.0.1",
+    "description": "some readonly query for zhiwei git repository",
+    "main": "src/index.ts",
+    "scripts": {
+        "dev": "wrangler dev"
+    },
+    "keywords": [],
+    "author": "Ezio Lin",
+    "license": "MIT",
+    "devDependencies": {
+        "@cloudflare/workers-types": "^4.20221111.1",
+        "@types/crypto-js": "^4.1.1",
+        "@types/service-worker-mock": "^2.0.1",
+        "typescript": "5.0.2",
+        "wrangler": "^2.4.4"
+    },
+    "dependencies": {
+        "@cloudflare/itty-router-openapi": "^0.0.10",
+        "crypto-js": "^4.1.1"
+    }
+}

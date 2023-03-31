@@ -1,0 +1,9 @@
+name = "zhiwei-git-query"
+main = "src/index.ts"
+compatibility_date = "2022-11-28"
+
+[vars]
+# The necessary secrets are:
+# accessKeyId = ""
+# accessSecurity = ""
+# Run `echo <VALUE> | wrangler secret put <NAME>` for each of these

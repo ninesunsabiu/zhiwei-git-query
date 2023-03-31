@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "strict": true,
+        "types": ["@cloudflare/workers-types", "@types/service-worker-mock"],
+        "allowJs": true,
+        "useUnknownInCatchVariables": true,
+        "noUncheckedIndexedAccess": true,
+        "exactOptionalPropertyTypes": true,
+        "moduleResolution": "bundler",
+        "resolveJsonModule": true,
+    },
+    "include": ["src"]
+}
